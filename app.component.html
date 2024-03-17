@@ -1,0 +1,80 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  
+    <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+      <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+          <span class="navbar-brand mb-0 h1">Profile Summary</span>
+        </div>
+      </nav>
+    </div>
+    
+</nav>
+
+  <div class="search">
+    <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+    
+    <button type="button" class="btn btn-outline-primary ">Add</button>
+    <button type="button" class="btn btn-outline-primary ">Delete</button>
+  </div>
+  
+  
+
+<table class="table table-striped" #FeesDetailsExcel id="table">
+  <thead>
+      <tr>
+          <th (click)="showAvinash()">Avinash</th>
+          <th (click)="showMahesh()">Mahesh Shinde</th>
+          <th (click)="showManisha()">Manisha Wagh</th>
+      </tr>
+  </thead>
+</table>
+
+<div *ngIf="showAvinashInfo">
+  
+  <p>Name: Avinash</p>
+  <p>Email: avinash@example.com</p>
+  <p>Mobile:957846123</p>
+  <p>Location:Pune</p>
+  
+</div>
+
+<div *ngIf="showMaheshInfo">
+ 
+  <p>Name: Mahesh Shinde</p>
+  <p>Email: mahesh@example.com</p>
+  <p>Mobile:95446123</p>
+  <p>Location:Mumbai</p>
+</div>
+
+<div *ngIf="showManishaInfo">
+  
+  <p>Name: Manisha Wagh</p>
+  <p>Email: manisha@example.com</p>
+  <p>Mobile:947245123</p>
+  <p>Location:Solapur</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <router-outlet></router-outlet> -->
