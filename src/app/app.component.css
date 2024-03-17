@@ -1,0 +1,70 @@
+
+
+.custom-card {
+    min-height: 800px; /* Adjust the height as needed */
+  }
+
+.form-control{
+    width: auto;
+}
+
+.navbar{
+    background-color: rgb
+}
+
+
+
+/* .search {
+    position: relative;
+  } */
+  
+  .search {
+    text-align: right;
+    padding: 20px; /* Optional padding for spacing */
+  }
+  .form-control {
+    width: 100%; /* This will make the input take up the full width of the parent div */
+    padding-right: 30px; /* Adjust this value to control the space on the right for the button */
+  }
+  
+  /* Style the search button */
+  .search::before {
+    content: "\f002"; /* You can use a Unicode icon for the button (e.g., a search icon) */
+    font-family: FontAwesome; /* Use a font icon library like FontAwesome */
+    position: absolute;
+    top: 50%;
+    right: 10px; /* Adjust this value to control the distance of the button from the right edge */
+    transform: translateY(-50%);
+    color: #000; /* Change the color as needed */
+    cursor: pointer;
+  }
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* height: 100px; Adjust the height as needed */
+    overflow: hidden;
+    height: 600px;
+  }
+
+  .card{
+    margin-top: 10px;
+  }
+
+  
+  .search {
+    display: flex;
+    align-items: center;
+  }
+  
+  .form-control {
+    width: 150px; /* Adjust the width as needed */
+    height: 30px; /* Adjust the height as needed */
+  }
+  
+  .btn {
+    height: 30px; /* Adjust the height as needed */
+    margin-left: 5px; /* Adjust the margin as needed */
+  }
+  
